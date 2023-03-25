@@ -22,7 +22,7 @@ To use this notebook, you will need to have Jupyter notebook installed on your c
 
 You can install these libraries using pip:
 
-    `pip install bokeh pandas numpy`
+    pip install bokeh pandas numpy
 
 ### Usage
 
