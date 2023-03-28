@@ -10,7 +10,11 @@ It contains the .ipynb file created using Jupyter notebook and an accompanying i
 
 - <u>Installation</u>
 
+- <u>Environment Setup</u>
+
 - <u>Usage</u>
+
+- <u>Project Structure</u>
 
 ### Installation
 
@@ -24,6 +28,28 @@ You can install these libraries using pip:
 
     pip install bokeh pandas numpy
 
+### Environment Setup
+
+To set up the environment for this project, you can use the `environment.yml` file as follows:
+
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in the terminal or command prompt.
+3. Create a new conda environment using the `environment.yml` file with the following command:
+
+    `conda env create -n <name> -f environment.yml`
+
+replacing `<name>` with the name of your choosing. This will create a new environment with the necessary dependencies to run the project.
+
+4. Activate the new environment using the command `conda activate <name>`.
+
 ### Usage
 
-To use this notebook, simply open it in Jupyter Notebook and run the cells in order. The notebook contains detailed explanations of the code, including comments and markdown cells, making it easy for you to understand how the code works and how to modify it for your own purposes.
+To use this notebook, simply open the *.ipynb* file in Jupyter Notebook and run the cells in order. The notebook contains detailed explanations of the code, including comments and markdown cells, making it easy for you to understand how the code works and how to modify it for your own purposes.
+
+### Project Structure
+
+Here is a brief overview of the project structure:
+
+- `app`: This directory contains the data source and python code for the task.
+- `environment.yml`: This file contains the environment dependencies.
+- `README.md`: This file provides an overview of the project and instructions on how to set up the environment.
