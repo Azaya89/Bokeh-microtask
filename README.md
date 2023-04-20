@@ -46,6 +46,8 @@ replacing `<name>` with the name of your choosing. This will create a new enviro
 
 To use this notebook, simply open the *.ipynb* file in Jupyter Notebook and run the cells in order. The notebook contains detailed explanations of the code, including comments and markdown cells, making it easy for you to understand how the code works and how to modify it for your own purposes.
 
+You can also view the notebook [here](https://nbviewer.org/github/Azaya89/Bokeh-microtask/blob/main/app/bokeh_micro_task.ipynb) without having to clone this repository.
+
 ### Project Structure
 
 Here is a brief overview of the project structure:
