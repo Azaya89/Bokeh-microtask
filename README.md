@@ -36,11 +36,14 @@ To set up the environment for this project, you can use the `environment.yml` fi
 2. Navigate to the project directory in the terminal or command prompt.
 3. Create a new conda environment using the `environment.yml` file with the following command:
 
-    `conda env create -n <name> -f environment.yml`
+        `conda env create -n <name> -f environment.yml`
+
 
 replacing `<name>` with the name of your choosing. This will create a new environment with the necessary dependencies to run the project.
 
-4. Activate the new environment using the command `conda activate <name>`.
+4. Activate the new environment using the command:
+
+        `conda activate <name>`
 
 ### Usage
 
